@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		CFD1FA0622EFD07C00468491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD1FA0422EFD07C00468491 /* Main.storyboard */; };
 		CFD1FA0822EFD07D00468491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD1FA0722EFD07D00468491 /* Assets.xcassets */; };
 		CFD1FA0B22EFD07D00468491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD1FA0922EFD07D00468491 /* LaunchScreen.storyboard */; };
+		CFD1FA1522EFD81300468491 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD1FA1422EFD81300468491 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CFD1FA0722EFD07D00468491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFD1FA0A22EFD07D00468491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFD1FA0C22EFD07D00468491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD1FA1422EFD81300468491 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,6 @@
 				BD9E3A772E13A4509BCC51DE /* Pods-FirstRealms.debug.xcconfig */,
 				15E7DCD1621B139401C98BFE /* Pods-FirstRealms.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -77,6 +78,7 @@
 				CFD1FA0722EFD07D00468491 /* Assets.xcassets */,
 				CFD1FA0922EFD07D00468491 /* LaunchScreen.storyboard */,
 				CFD1FA0C22EFD07D00468491 /* Info.plist */,
+				CFD1FA1422EFD81300468491 /* Item.swift */,
 			);
 			path = FirstRealms;
 			sourceTree = "<group>";
@@ -205,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFD1FA0322EFD07C00468491 /* ViewController.swift in Sources */,
+				CFD1FA1522EFD81300468491 /* Item.swift in Sources */,
 				CFD1FA0122EFD07C00468491 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
